@@ -16,7 +16,7 @@ export default class Usingjsonfile extends React.Component {
   render() {
     return (
       <div>
-        <h1> json data to get title</h1>
+        <h1> json data to get title by techm</h1>
         {this.state.persons.map((person) => (
           <li key={person.id}> {person.title}</li>
         ))}
