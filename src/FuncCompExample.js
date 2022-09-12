@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const PropExample = () => {
+const FuncCompExample = () => {
   const [value, changeValue] = useState(10);
 
   return (
@@ -10,11 +10,11 @@ const PropExample = () => {
     </div>
   );
 };
-export default PropExample;
+export default FuncCompExample;
 
-// function UserChild() {
+// function FuncCompExample() {
 //   const [value, changeValue] = useState(10);
 
 //   return <div>usestate example</div>;
 // }
-// export default UserChild;
+// export default FuncCompExample;

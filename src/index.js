@@ -6,14 +6,33 @@ import Practise from "./practise";
 import UsersPropsParent from "./UsersPropsParent";
 import UsersPropsChild from "./UsersPropsChild";
 import Usingjsonfile from "./Usingjsonfile";
-import PropExample from "./PropExample";
+import FuncCompExample from "./FuncCompExample";
+import Users from "./UserExampleUsingProps/Users";
+import Users1 from "./UserExampleUsingProps/Users1";
+import Users2 from "./UserExampleUsingProps/Users2";
+import Users3 from "./UserExampleUsingProps/Users3";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <UsersPropsChild />
+    <Users3 />
+    <br />
+    <br />
+    <br />
+
+    <Users2 />
+    <br />
+    <br />
+    <br />
+
+    <Users1 />
+    <br />
+    <br />
+    <br />
+
+    <Users />
     <br />
     <br />
     <br />
@@ -21,7 +40,11 @@ root.render(
     <Practise />
     <br />
     <br />
-    {/* <Colours /> */}
+    <br />
+
+    <FuncCompExample />
+    <br />
+    <br />
     <br />
 
     <UsersPropsParent />
@@ -29,7 +52,7 @@ root.render(
     <br />
     <br />
 
-    <PropExample />
+    <UsersPropsChild />
     <br />
     <br />
     <br />
