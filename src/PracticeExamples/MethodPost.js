@@ -15,6 +15,13 @@ class MethodPost extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  /*Once you submit the form check the console to see the object is created or not with the below values
+  userId: "1"
+title: "pra"
+body: "Teacher"
+id: 101
+status: 201
+  */
   submitHandler = (e) => {
     e.preventDefault();
     console.log(this.state);
