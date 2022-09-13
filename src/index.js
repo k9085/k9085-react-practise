@@ -6,7 +6,7 @@ import Practise from "./practise";
 import UsersPropsParent from "./UsersPropsParent";
 import UsersPropsChild from "./UsersPropsChild";
 import Usingjsonfile from "./Usingjsonfile";
-import FuncCompExample from "./FuncCompExample";
+import FuncCompExample from "./FuncCompWithoutAnonymous";
 import Users from "./UserExampleUsingProps/Users";
 import Users1 from "./UserExampleUsingProps/Users1";
 import Users2 from "./UserExampleUsingProps/Users2";
@@ -15,12 +15,30 @@ import InterestParent from "./PracticeExamples/InterestParent";
 import AccessingData from "./UsingJson/AccessingData";
 import MethodGet from "./PracticeExamples/MethodGet";
 import MethodPost from "./PracticeExamples/MethodPost";
+import CompClass from "./classCompVsFunComp";
+import CompFunc from "./classCompVsFunComp";
+import FuncCompAnony from "./FuncCompwithAnonymous";
+import FormValidation from "./FormValidation";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
+    <FormValidation />
+    <br />
+    <br />
+    <CompFunc />
+    <br />
+    <br />
+
+    <CompClass />
+    <br />
+    <br />
+
+    <FuncCompAnony />
+    <br />
+    <br />
     <MethodPost />
     <MethodGet />
 

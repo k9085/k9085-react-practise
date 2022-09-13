@@ -11,7 +11,7 @@ const FuncCompExample = () => {
     <div>
       usestate Example
       <div>value:{value}</div>
-      <button onClick={() => changeFunction()}>Click me</button>
+      <button onClick={changeFunction}>Click me</button>
     </div>
   );
 };
