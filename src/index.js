@@ -25,9 +25,14 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
+    <UseeffectApi />
+    <br />
+    <br />
+      
     <FormValidation />
     <br />
     <br />
+    
     <CompFunc />
     <br />
     <br />
