@@ -18,6 +18,7 @@ import MethodPost from "./PracticeExamples/MethodPost";
 import CompClass from "./classCompVsFunComp";
 import CompFunc from "./classCompVsFunComp";
 import FuncCompAnony from "./FuncCompwithAnonymous";
+import FuncApiHook from "./ExampleHooks/FuncApiHook";
 import FormValidation from "./FormValidation";
 
 const rootElement = document.getElementById("root");
@@ -25,6 +26,10 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
+    <FuncApiHook />
+    <br />
+    <br />
+
     <FormValidation />
     <br />
     <br />
