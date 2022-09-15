@@ -19,7 +19,7 @@ will be the value to the setFormErrors .the setFormErrors will update the former
 
 */
 
-function FormValidation() {
+ FormValidation = ()=> {
   const initialValues = { username: "", email: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
