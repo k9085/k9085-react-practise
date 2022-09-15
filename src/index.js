@@ -19,6 +19,7 @@ import CompClass from "./classCompVsFunComp";
 import CompFunc from "./classCompVsFunComp";
 import FuncCompAnony from "./FuncCompwithAnonymous";
 import FuncApiHook from "./ExampleHooks/FuncApiHook";
+import BasicUseEffect from "./ExampleHooks/BasicUseEffect";
 import FormValidation from "./FormValidation";
 
 const rootElement = document.getElementById("root");
@@ -26,6 +27,10 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
+    <BasicUseEffect />
+    <br />
+    <br />
+
     <FuncApiHook />
     <br />
     <br />
