@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-
+/*check all examples */
 import App from "./App";
 import Practise from "./practise";
 import UsersPropsParent from "./UsersPropsParent";
@@ -102,5 +102,5 @@ root.render(
     <App />
 
     <Usingjsonfile />
-  </StrictMode>
+  </StrictMode>,
 );
